@@ -15,6 +15,7 @@ gem 'rollbar'
 gem 'doorkeeper'
 gem 'dry-types'
 gem 'dry-validation'
+gem 'faraday'
 gem 'trailblazer'
 gem 'trailblazer-rails'
 gem 'reform'
@@ -59,6 +60,7 @@ group :test do
   gem 'rspec-rails'
   gem 'simplecov'
   gem 'codeclimate-test-reporter', require: false
+  gem 'webmock'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
