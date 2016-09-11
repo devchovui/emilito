@@ -21,6 +21,7 @@ gem 'trailblazer-rails'
 gem 'reform'
 gem 'representable'
 gem 'responders'
+gem 'wisper', '~> 2.0.0.rc1'
 
 # ===== Frontend =====
 gem 'bootstrap', '~> 4.0.0.alpha4'
