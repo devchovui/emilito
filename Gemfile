@@ -63,6 +63,7 @@ group :test do
   gem 'faker', require: false
   gem 'rspec'
   gem 'rspec-rails'
+  gem 'rspec-sidekiq'
   gem 'simplecov'
   gem 'codeclimate-test-reporter', require: false
   gem 'webmock'
