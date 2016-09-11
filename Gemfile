@@ -8,6 +8,10 @@ gem 'rails', '~> 5.0.0'
 gem 'pg', '~> 0.18'
 gem 'puma', '~> 3.0'
 
+gem 'sidekiq'
+gem 'sinatra', '~> 2.0.0.beta2', require: false
+gem 'redis-namespace'
+
 gem 'dotenv-rails'
 gem 'rollbar'
 
